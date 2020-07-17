@@ -67,7 +67,7 @@ div.products-grid div.item div.item-info > h3 {
   font-weight: bold;
 }
 
-div.products-grid div.item div.item-info a.button-link {
+div.products-grid div.item div.item-info span.button-link {
   padding: 12px 18px;
   border-radius: 6px;
   color: #005ba1;
@@ -77,12 +77,12 @@ div.products-grid div.item div.item-info a.button-link {
   border: 2px solid #005ba1;
 }
 
-div.products-grid div.item div.item-info a.button-link:hover {
+div.products-grid div.item div.item-info span.button-link:hover {
   color: #fff;
   background-color: #005ba1;
 }
 
-div.products-grid div.item div.item-info a.button-link h3 {
+div.products-grid div.item div.item-info span.button-link h3 {
   margin: 0;
   font-size: 20px;
 }

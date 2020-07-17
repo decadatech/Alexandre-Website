@@ -10,9 +10,9 @@ a.fab {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
   border: none;
   z-index: 10;
   margin-bottom: 8px;
