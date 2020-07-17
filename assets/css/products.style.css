@@ -1,0 +1,115 @@
+div.products-grid {
+  margin: 0 auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+@media screen and (max-width: 450px) {
+  div.products-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+div.products-grid div.item {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 75px 0px rgba(0,0,0,0.1);
+}
+
+div.products-grid div.item .image-link {
+  max-width: 70%;
+  max-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.products-grid div.item img {
+  max-height: 300px;
+  max-width: 300px;
+  width: auto;
+  height: auto;
+}
+
+/* div.products-grid div.item img:hover {
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  transform: scale(1.08);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+} */
+
+div.products-grid div.item div.item-info {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.products-grid div.item div.item-info > h3 {
+  color: #005ba1;
+  font-weight: bold;
+}
+
+div.products-grid div.item div.item-info a.button-link {
+  padding: 12px 18px;
+  border-radius: 6px;
+  color: #005ba1;
+  background-color: transparent;
+  text-decoration: none;
+  transition: .2s;
+  border: 2px solid #005ba1;
+}
+
+div.products-grid div.item div.item-info a.button-link:hover {
+  color: #fff;
+  background-color: #005ba1;
+}
+
+div.products-grid div.item div.item-info a.button-link h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+
+div.products-grid div.item div.item-info strong {
+  font-size: 16px;
+  color: #363636;
+}
+
+div.products-grid div.item div.item-info h5 {
+  color: #363636;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.button {
+  text-decoration: none;
+  margin: 16px auto;
+  background-color: #005ba1;
+  color: #fff;
+  padding: 18px 36px;
+  border-radius: 6px;
+}
+
+

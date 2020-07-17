@@ -1,0 +1,83 @@
+footer {
+  margin: 100px auto 0;
+  padding: 8px;
+  background-color: transparent;
+}
+
+footer div.info-container {
+  /* border-top: 1px solid #363636; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+footer div.info-container div.info-item {
+  padding: 20px;
+}
+
+footer div.info-container div.info-item h3 {
+  color: #005ba1;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+footer div.info-container div.info-item p {
+  margin: 8px 0;
+  color: #363636;
+}
+
+@media screen and (max-width: 450px) {
+  footer div.info-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+footer div.map {
+  margin-bottom: 16px;
+}
+
+footer div.footer-links {
+  border-top: 1px solid #363636;
+  padding-top: 16px;
+  border-color: #363636;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  color: #363636;
+}
+
+footer div.footer-links div.links {
+  text-decoration: none;
+}
+
+footer div.footer-links div.links a {
+  margin-right: 16px;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgba(54, 54, 54, 0.8);
+  transition: 0.2s;
+}
+
+footer div.footer-links div.links a:hover {
+  color: #363636;
+}
+
+footer div.copyright {
+  padding: 30px;
+  text-align: center;
+}
+
+footer div.copyright span {
+  font-size: 14px;
+  color: #363636;
+}
+
+footer div.copyright span a {
+  font-weight: bold;
+  color: #363636;
+}
+

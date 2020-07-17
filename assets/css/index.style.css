@@ -1,0 +1,119 @@
+section.feature-section {
+  margin: 50px auto;
+}
+
+section.feature-section .container div .item {
+  padding: 24px;
+}
+
+section.feature-section .container div .item h3 {
+  margin-bottom: 24px;
+  color: #005ba1;
+  text-align: center;
+}
+
+section.feature-section .container div .item p {
+  text-align: justify;
+  line-height: 2;
+  font-size: 16px;
+}
+
+section.feature-section .container div.actions > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.feature-section .container div.actions > div > a.button {
+  margin: 0 auto;
+  padding: 16px 24px;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #005ba1;
+  border: 2px solid #005ba1;
+  transition: 400ms;
+}
+
+section.feature-section .container div.actions > div > a.button:hover{
+  background-color: white;
+  color: #005ba1;
+  
+}
+
+div.product-actions {
+  color: #363636;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.product-actions a {
+  background-color: #005ba1;
+  color: #fff;
+  padding: 14px 16px;
+  border-radius: 6px;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+section.provider-section {
+  margin-top: 50px;
+}
+
+section.provider-section div.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.provider-section div.title h1 {
+  text-align: center;
+  color: #005ba1;
+}
+
+section.provider-section div.owl-carousel {
+  margin-top: 30px;
+}
+
+section.provider-section div.owl-carousel div.item p {
+  text-align: center;
+  color: #363636;
+  font-size: 16px;
+}
+
+section.carousel {
+  /* height: 80vh; */
+  padding-top: 100px;
+}
+
+section.carousel div.container {
+  height: 80vh;
+}
+
+div#main-carousel {
+  height: 80vh;
+}
+
+div.carousel-inner {
+  height: 80vh;
+}
+
+div.itens-desktop-nav a {
+  color: #363636;
+}
+
+@media screen and (max-width: 450px) {
+  section.carousel div.container {
+    height: auto;
+  }
+
+  div#main-carousel {
+    height: auto;
+  }
+
+  div.carousel-inner {
+    height: auto;
+  }
+}
+
